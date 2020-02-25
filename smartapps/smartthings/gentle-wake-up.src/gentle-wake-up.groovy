@@ -813,6 +813,7 @@ def getHue(dimmer, level) {
 		return getDownHue(level)
 	} else {
 		return getUpHue(level)
+        //return getDownHue(level)
 	}
 }
 
